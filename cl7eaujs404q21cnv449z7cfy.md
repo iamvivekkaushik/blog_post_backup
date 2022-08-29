@@ -200,7 +200,7 @@ jobs:
           echo "keyPassword=$KEYSTORE_KEY_PASSWORD" >> key.properties
           echo "$KEYSTORE_KEY_ALIAS"
           echo "$PLAY_STORE_CONFIG_JSON" > /home/runner/work/repo-name/repo-name/service_key.json
-          echo "json_key_file(\"/home/runner/work/repo-name/repo-name/service_key.json\")" > /home/runner/work/users-app-mv2/users-app-mv2/android/fastlane/Appfile
+          echo "json_key_file(\"/home/runner/work/repo-name/repo-name/service_key.json\")" > /home/runner/work/repo-name/repo-name/android/fastlane/Appfile
           echo "package_name(\"package-name\")" >> /home/runner/work/repo-name/repo-name/android/fastlane/Appfile
           cat /home/runner/work/repo-name/repo-name/android/fastlane/Appfile
         env:
