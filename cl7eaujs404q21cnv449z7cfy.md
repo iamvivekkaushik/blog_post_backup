@@ -1,4 +1,12 @@
-## Publishing Flutter apps to Play Store using Github Actions and Fastlane
+---
+title: "Publishing Flutter apps to Play Store using Github Actions and Fastlane"
+datePublished: Mon Aug 29 2022 05:07:50 GMT+0000 (Coordinated Universal Time)
+cuid: cl7eaujs404q21cnv449z7cfy
+slug: publishing-flutter-apps-to-play-store-using-github-actions-and-fastlane
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1661617603168/HAu97nbjt.png
+tags: continuous-deployment, flutter, github-actions-1, playstore, fastlane
+
+---
 
 Recently I was trying to figure out how I can publish flutter apps to the Play Store using Github Actions and publish them I did. I started reading some documentation available at [flutter's official site](https://docs.flutter.dev/deployment/cd) and followed the instructions to set up Fastlane locally on my machine.  First, we will get the Fastlane working on your local machine.
 
