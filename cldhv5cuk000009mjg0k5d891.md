@@ -1,4 +1,13 @@
-# Bring your app online using SSH with a custom domain for free
+---
+title: "Bring your app online using SSH with a custom domain for free"
+datePublished: Sun Jan 29 2023 20:57:39 GMT+0000 (Coordinated Universal Time)
+cuid: cldhv5cuk000009mjg0k5d891
+slug: bring-your-app-online-using-ssh-with-a-custom-domain-for-free
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1675022773267/4e9fd6d5-ca31-40c3-a6c8-262386e37f3a.jpeg
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1675025841423/57c97c2c-6715-44d0-9eae-460b048feee6.jpeg
+tags: proxy, ngrok, linux, ssh
+
+---
 
 If you're a developer you must've encountered a situation where localhost just wouldn't work for you, maybe you wanted to show off your project to someone else or needed to set up a public URL for a webhook. There are countless situations where you want your project to be accessible from the internet while it is still in the development phase.
 
