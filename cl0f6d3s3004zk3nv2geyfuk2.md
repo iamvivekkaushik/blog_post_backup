@@ -1,4 +1,12 @@
-## Setting up PostgreSQL and configuring incoming connections
+---
+title: "Setting up PostgreSQL and configuring incoming connections"
+datePublished: Sun Mar 06 2022 11:12:07 GMT+0000 (Coordinated Universal Time)
+cuid: cl0f6d3s3004zk3nv2geyfuk2
+slug: setting-up-postgresql-and-configuring-incoming-connections
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1646559105332/Kyf7cKBiO.jpg
+tags: ubuntu, postgresql, postgres
+
+---
 
 In this article, I'll give you a step-by-step guide on how to install the PostgreSQL database on Ubuntu 20.04.
 
