@@ -1,4 +1,13 @@
-## Disable Root And Password Login via SSH
+---
+title: "Disable Root And Password Login via SSH"
+datePublished: Fri Mar 26 2021 11:57:36 GMT+0000 (Coordinated Universal Time)
+cuid: ckmq92p7q01reovs1aaky40kv
+slug: disable-root-and-password-login-via-ssh
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1616910046721/_szzJtQCp.png
+ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1616759845888/H-vE6fvt0.png
+tags: ubuntu, security, ssh
+
+---
 
 I shouldn't need to tell you why login as root via SSH can be dangerous. If somebody (hacker/unwanted person) were to get into your server and they have root access, that can be a sign of trouble. You see with root access they can do virtually anything. So disabling root access can be a good move for your server security.
 
