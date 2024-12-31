@@ -1,4 +1,12 @@
-## Setting Up Verified Commits On Github
+---
+title: "Setting Up Verified Commits On Github"
+datePublished: Sun Mar 28 2021 05:38:39 GMT+0000 (Coordinated Universal Time)
+cuid: ckmsqf2bc0bmbm1s18ka6b2vp
+slug: setting-up-verified-commits-on-github
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1616909744106/TrEUiRr4I.png
+tags: github
+
+---
 
 We've all seen that verified badge on GitHub commits when we edit something straight from Github Web UI. Surely you've wondered why it doesn't show up when you push something from the terminal, even though you successfully authenticated yourself with the correct username and password. I mean it should show up because it is you who are making those changes, Right?
 
