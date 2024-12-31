@@ -1,4 +1,14 @@
-## Getting Started With Go
+---
+title: "Getting Started With Go"
+seoTitle: "Getting Started With GoLang"
+seoDescription: "In this post, we will set up the project and familiarize ourselves with some basic go commands."
+datePublished: Mon Jul 04 2022 08:58:24 GMT+0000 (Coordinated Universal Time)
+cuid: cl56ifcu104ofg0nvbicl3hws
+slug: getting-started-with-go
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1656870470158/TILbiKESj.png
+tags: go, golang, learning
+
+---
 
 In this post, I'll walk you through setting up your go project. As a prerequisite you must have go installed in your system, you can get it for your system from [https://go.dev/dl/](https://go.dev/dl/)
 
