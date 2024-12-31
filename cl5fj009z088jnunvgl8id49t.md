@@ -1,4 +1,14 @@
-## Array & Slice in GoLang
+---
+title: "Array & Slice in GoLang"
+seoTitle: "Array and Slice In GoLang"
+seoDescription: "In this post, I explain how to make use of arrays and slices in go lang."
+datePublished: Sun Jul 10 2022 16:24:23 GMT+0000 (Coordinated Universal Time)
+cuid: cl5fj009z088jnunvgl8id49t
+slug: array-and-slice-in-golang
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657468401993/wDie6C8y8.png
+tags: go, golang, array, slice
+
+---
 
 Let's say we are working on a go app and we have to store the data of 2 users, so far we know about variables and how they can be used for data, let's say we create two variables and store the name of our 2 users. But then we receive a request to add another user well, we can create another variable for our new user. But you can see this is becoming a problem. Our application is not scalable and the code will also start to become a mess after a certain number of users. How do we get around this problem?
 
