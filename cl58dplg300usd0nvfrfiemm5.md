@@ -1,4 +1,14 @@
-## Variables And Data Types In Go
+---
+title: "Variables And Data Types In Go"
+seoTitle: "Variables And Data Types In Go"
+seoDescription: "In this post, we will learn about how to define and make use of variables in go. We will learn about different data types that are available in go lang."
+datePublished: Tue Jul 05 2022 16:21:56 GMT+0000 (Coordinated Universal Time)
+cuid: cl58dplg300usd0nvfrfiemm5
+slug: variables-and-data-types-in-go
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1657037081822/m162TPfoN.png
+tags: go, golang
+
+---
 
 Variables are containers that hold some value. There are two types of variables in Go, one whose value can be changed and the other whose can not we call them `constants`.
 
