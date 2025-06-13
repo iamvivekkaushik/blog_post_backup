@@ -16,7 +16,7 @@ Here is what I ended up with
 
 ![](https://cdn.hashnode.com/res/hashnode/image/upload/v1749801534798/888c4be3-8acd-479f-9ba5-7d1baef54db0.png align="center")
 
-There was a lot of hacking involved to get to this point, let’s dive in.  
+There was a lot of hacking involved to get to this point, let’s dive in.
 
 ### The First Problem (May Not Be a Problem for You)
 
@@ -45,7 +45,7 @@ ATTRS{serial}=="000001"
 
 Now that we’ve got what we need, let’s make the rule:
 
-```
+```bash
 sudo nano /etc/udev/rules.d/70-persistent-net.rules
 ```
 
@@ -522,6 +522,12 @@ network:
       parameters:
         forward-delay: "0"
         stp: false
+```
+
+After that:
+
+```bash
+sudo netplan apply
 ```
 
 ### Step 2: What this actually does
