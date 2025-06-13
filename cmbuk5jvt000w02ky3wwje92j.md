@@ -318,6 +318,7 @@ configure_routing() {
     ip route flush default
     
     # Add primary route
+    info "Running: ip route add default via $primary_gw dev $primary_int metric $primary_metric"
     check_command ip route add default via "$primary_gw" dev "$primary_int" metric "$primary_metric"
     
     # Add secondary route if available
@@ -363,23 +364,24 @@ add_iptables_rule() {
 # Initialize secondary interface and get its gateway
 setup_secondary_interface() {
     local secondary_gw=""
-    
-    if is_interface_available "$SECONDARY_INTERFACE"; then
-        secondary_gw=$(get_interface_gateway "$SECONDARY_INTERFACE")
+
+    # if is_interface_available "$SECONDARY_INTERFACE"; then
+    #     secondary_gw=$(get_interface_gateway "$SECONDARY_INTERFACE")
         
-        info "Secondary Gateway: ${secondary_gw:-"Not found"}"
+    #     info "Secondary Gateway: ${secondary_gw:-"Not found"}"
         
-        if [[ -z "$secondary_gw" ]]; then
-            secondary_gw=$(obtain_dhcp_gateway "$SECONDARY_INTERFACE" || echo "")
-            if [[ -n "$secondary_gw" ]]; then
-                info "Obtained secondary gateway: $secondary_gw"
-            fi
-        fi
-    else
-        info "Secondary interface $SECONDARY_INTERFACE not found or not connected. Skipping secondary routing."
-    fi
+    #     if [[ -z "$secondary_gw" ]]; then
+    #         secondary_gw=$(obtain_dhcp_gateway "$SECONDARY_INTERFACE" || echo "")
+    #         if [[ -n "$secondary_gw" ]]; then
+    #             info "Obtained secondary gateway: $secondary_gw"
+    #         fi
+    #     fi
+    # else
+    #     info "Secondary interface $SECONDARY_INTERFACE not found or not connected. Skipping secondary routing."
+    # fi
     
-    echo "$secondary_gw"
+    # echo "$secondary_gw"
+    echo "$SECONDARY_GATEWAY_DEFAULT"
 }
 
 # Handle primary interface routing and NAT
@@ -471,6 +473,7 @@ main() {
 if [[ "${BASH_SOURCE[0]}" == "${0}" ]]; then
     main "$@"
 fi
+
 ```
 
 Also make sure it’s executable:
